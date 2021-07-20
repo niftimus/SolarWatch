@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SolarWatch</string>
+    <string name="string_production_watts">Production (W):</string>
+    <string name="string_consumption_watts">Consumption (W):</string>
+    <string name="string_consumption_kwh">Life Consumption (kWh):</string>
+    <string name="string_update">Update</string>
+    <string name="string_reset">Reset</string>
+    <string name="string_net_export">Net Export (W):</string>
+    <string name="string_last_refresh">Last refresh (s):</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="connectivity_header">Connectivity</string>
+    <string name="settings_header">Sync</string>
+    <string name="string_settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="string_legend_consumption">Consumption (W)</string>
+    <string name="string_legend_production">Production (W)</string>
+    <string name="string_legend_net">Net (W)</string>
+
+</resources>

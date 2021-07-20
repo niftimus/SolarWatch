@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/connectivity_header">
+
+        <EditTextPreference
+            android:defaultValue="192.168.1.107"
+            android:key="pref_text_inverter_ip"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="IP Address" />
+
+        <ListPreference
+            android:defaultValue="SMA"
+            android:entries="@array/inverterTypes"
+            android:entryValues="@array/inverterTypes"
+            android:key="pref_text_inverter_type"
+            android:title="Inverter Type" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/settings_header">
+
+        <EditTextPreference
+            android:defaultValue="10"
+            android:key="pref_text_refresh_interval"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Refresh rate (seconds)" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

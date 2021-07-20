@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="inverterTypes">
+        <item>SMA</item>
+        <item>Enphase</item>
+    </array>
+</resources>
